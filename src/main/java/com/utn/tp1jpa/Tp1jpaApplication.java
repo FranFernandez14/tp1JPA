@@ -135,20 +135,6 @@ public class Tp1jpaApplication {
 					.domicilios(domicilios)
 					.pedidos(pedidos)
 					.build();
-			/*
-			productoRepositorio.save(producto1);
-			productoRepositorio.save(producto2);
-
-			 */
-
-			/*
-			domicilioRepositorio.save(domicilio1);
-			domicilioRepositorio.save(domicilio2);
-			detallePedidoRepositorio.save(detallePedido1);
-			detallePedidoRepositorio.save(detallePedido2);
-			facturaRepositorio.save(factura);
-			pedidoRepositorio.save(pedido1);
-			 */
 			clienteRepositorio.save(cliente1);
 
 			List<Cliente> clientes= clienteRepositorio.findAll();
